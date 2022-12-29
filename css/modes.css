@@ -1,0 +1,5 @@
+/* Default Classes CSS */
+.alert {
+  display: none;
+  position: fixed;
+}
