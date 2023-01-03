@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  padding: 20px 0;
+}
+
+img {
+  padding-top: 10px;
+  
+}
+
+body {
+  background-color: #f3f5fc ;
+}
+
+main {
+
+}
+
+footer {
+  text-align: center;
+}
