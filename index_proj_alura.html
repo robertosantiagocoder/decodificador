@@ -23,14 +23,29 @@
     </header>
 
     <main>
-        <span class="alert"></span>
-        <div class="campo_texto">
-            <textarea name="texto inicial" id="entrada"placeholder="Digite seu texto"></textarea>
-        </div>
-
-        <span class="info"></span>
-        <div class="button"><img src="figuras/botao-crip.png"  alt="botao_encriptar"></img>
-
+        <section>
+            <div class="campo_texto">
+                <textarea name="texto inicial" id="entrada"placeholder="Digite seu texto"></textarea>
+            </div>
+            <div>
+                <div id="info">
+                    <span class="simbolos">
+                    error
+                    </span>
+                    <span>
+                        Apenas letras minusculas,sem acento e sem caracteres especiais 
+                    </span>
+                </div>
+                <div id="buttons">
+                    <button id="criptografar">
+                        Criptografar
+                    </button>
+                    <button id="descriptografar">
+                        Descriptografar
+                    </button>
+                </div>  
+            </div>
+        </section>
 
     </main>
 

@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+
 }
 
 header{
@@ -15,9 +17,9 @@ body {
 }
 
 main {
+  display: flex;
   margin: 35px auto;
   width: 90%;
-  display: flex;
 }
 
 textarea {
