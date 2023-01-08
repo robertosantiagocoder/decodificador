@@ -1,3 +1,4 @@
+/* TAGS */
 * {
   margin: 0;
   padding: 0;
@@ -8,19 +9,22 @@ header{
   padding: 20px 0;
 }
 
-img {
-  padding-top: 10px;
-  
-}
 
 body {
-  background-color: #f3f5fc ;
+  background-color: #e3e5ec ;
 }
 
 main {
+  margin: 35px auto;
+  width: 90%;
+  display: flex;
+}
+
+textarea {
+  
+  border: none;
+  resize: none;
+  font-size: 24px;
 
 }
 
-footer {
-  text-align: center;
-}

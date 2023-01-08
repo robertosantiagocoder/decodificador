@@ -1,4 +1,4 @@
-/* Default Classes CSS */
+/* Classes CSS */
 .alert {
   display: none;
   position: fixed;
@@ -6,23 +6,67 @@
 
 .caixa{
   position: relative;
-  width: 940px;
   margin: 0 auto;
+}
 
+.vector {
+  position: absolute;
+  padding-top: 30px;
+  padding-left: 60px;
 }
 
 .titulo {
-  position: absolute;
+  position: relative;
   color: #0A3871;
   font-weight: bold;
   font-size: 24px;
   margin: 0 0 0 15px;
-  top: 20px;
-  right: 0;
+  top: 40px;
+  left: 700px;
+}
+
+.campo_texto{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+/* ENTRADAS */
+.campo_texto textarea{
+  
+  background-color: #e5e5e5;
+  color: #0a3871;
+  width: 680px;
+  height: 288px;
+  left: 240px;
+  top: 168px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
 
 }
 
-.copyright {
-  font-weight: bold;
-  color: #495057bd;
+.campo_texto textarea::placeholder{
+  color: #0a3871;
 }
+
+/* Button */
+
+.button {
+
+/* Auto layout 
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+
+  width: 328px;
+  height: 67px;*/
+
+}
+
