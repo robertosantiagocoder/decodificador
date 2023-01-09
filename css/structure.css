@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
 
 }
 
@@ -14,33 +13,18 @@ header{
 
 body {
   background-color: #e3e5ec ;
+
+}
+
+body * {
+  font-family: 'Inter', sans-serif;
 }
 
 main {
   display: flex;
   margin: 35px auto;
-  width: 90%;
-}
-
-textarea {
+  width: 75%;
   
-  border: none;
-  resize: none;
-  font-size: 24px;
-
 }
 
-main aside {
 
-  /* Rectangle 1 */
-  position: absolute;
-  width: 400px;
-  height: 944px;
-  left: 1000px;
-  top: 40px;
-  /* White */
-  background: #FFFFFF;
-  /* shadow */
-  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-  border-radius: 32px;
-}

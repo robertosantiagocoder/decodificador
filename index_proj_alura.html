@@ -4,38 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador Alura</title>
-
     <!--Aparencia-->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/structure.css">
     <link rel="stylesheet" type="text/css" href="css/improvement.css">
-    
     <!--Fontes-->
     <!--JavaScripts-->
 </head>
 <body><!--Conteúdo para ser exibido-->
-
     <header>
         <div class="caixa">
-        <h1><img class="vector" src="figuras/logo.svg" alt="Alura Logotipo" placeholder="Digite seu texto"></h1>
-        <nav class="titulo">Decodificador Alura</nav>
+        <h1>
+            <img class="vector" src="figuras/logo.svg" alt="Alura Logotipo" placeholder="Digite seu texto">
+        </h1>
+        <nav class="titulo">
+        Decodificador Alura
+        </nav>
         </div>
     </header>
 
     <main>
-        <section>
-            <div class="campo_texto">
-                <textarea name="texto inicial" id="entrada"placeholder="Digite seu texto"></textarea>
+        <span class="alerta"></span>
+        <div class="container_texto">
+            <div class="area">
+                <textarea name="area_texto" id="entrada" cols="20" rows="10"  placeholder="Digite seu texto" spellcheck="false"></textarea>
+                <span class="info">
+                    <img src="figuras/wow.svg" alt="Atenção">
+                Não utilize acentuação, nem caracteres especiais
+                </span>
             </div>
-            <div>
-                <div id="info">
-                    <span class="simbolos">
-                    error
-                    </span>
-                    <span>
-                        Apenas letras minusculas,sem acento e sem caracteres especiais 
-                    </span>
-                </div>
+            
                 <div id="buttons">
                     <button id="criptografar">
                         Criptografar
@@ -44,8 +42,8 @@
                         Descriptografar
                     </button>
                 </div>  
-            </div>
-        </section>
+        </div>
+        
 
         <aside>
             <div id="sem_mensagem">
