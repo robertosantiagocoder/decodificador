@@ -3,13 +3,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 header{
   padding: 20px 0;
 }
-
 
 body {
   background-color: #e3e5ec ;
@@ -30,14 +28,12 @@ main {
 button{
   gap: 18px;
   font-size: 16px;
-  font-weight: bold;
   cursor: pointer;
   padding: 24px;
   width: 328px;
   height: 67px;
   cursor: pointer;
   border-radius: 24px;
- 
 }
 
 
