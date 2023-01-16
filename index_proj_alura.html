@@ -19,21 +19,16 @@
 </head>
 <body><!--Conteúdo para ser exibido-->
     <header>
-        <div class="caixa">
-        <h1>
-            <img class="vector" src="figuras/logo.svg" alt="Alura Logotipo" >
-        </h1>
-        <nav class="titulo">
-        Decodificador Alura
-        </nav>
-        </div>
+            <img class="vector" src="figuras/logo.svg" alt="Alura Logotipo">
     </header>
 
     <main>
+
         <span class="alerta"></span>
         <section class="container_texto">
+
             <div class="area">
-                <textarea name="area_texto" id="entrada" cols="41" rows="4"  placeholder="Digite seu texto" spellcheck="false"></textarea>
+                <textarea name="area_texto" id="entrada" cols="41" rows="8"  placeholder="Digite seu texto" spellcheck="false"></textarea>
                 <span class="info">
                     <img src="figuras/wow.svg" alt="Atenção">
                 Não utilize acentuação, nem caracteres especiais
@@ -52,8 +47,7 @@
                 </div>  
         </section>
 
-        <section>
-        <div class="container_ilustrado">
+        <section class="container_ilustrado">
             <img src="figuras/lupa.svg" alt="Homem de lupa">
             <span class="info">
                 Nenhum texto encontrado
@@ -62,9 +56,8 @@
                 Digite um texto que você deseja criptografar ou descriptografar.
             </span>
 
-            <textarea  class="mensagem" cols="20" rows="10"></textarea>
-            <button class="btn-copiar">Copiar</button>
-        </div>
+            <textarea  name="mensagem" id= "saida" cols="20" rows="10"></textarea>
+            <button class="btn-copiar"><i class="fa-regular fa-copy"></i> Copiar</button>        
         </section>
         
     </main>

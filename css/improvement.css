@@ -4,25 +4,9 @@
   position: fixed;
 }
 
-.caixa{
-  position: relative;
-  margin: 0 auto;
-}
-
 .vector {
-  position: absolute;
   padding-top: 30px;
   padding-left: 60px;
-}
-
-.titulo {
-  position: relative;
-  color: #0A3871;
-  font-weight: bold;
-  font-size: 24px;
-  margin: 0 0 0 15px;
-  top: 40px;
-  left: 700px;
 }
 
 .container_texto {
@@ -48,7 +32,6 @@
 
 /* ENTRADA */
 .container_texto textarea{
-  
   background-color: #e3e5ec ;
   color: #0a3871;
   font-size: 32px;
@@ -105,9 +88,9 @@
   background: #FFFFFF;
 }
 
-
 .container_ilustrado .info {
-
+  margin-top: 30px;
+  padding: 20px;
   justify-content: center;
   text-align: center;
   color: #343A40
@@ -123,11 +106,29 @@
 }
 
 .container_ilustrado .info:last-of-type {
-  
   font-size: 16px;
   line-height: 150%;
   color: #495057
 }
+
 /* || SAÍDA*/
+.container_ilustrado textarea{
+  background-color: #FFFFFF;
+  border: none;
+}
+.container_ilustrado #mensagem::focus{
+  outline: none;
 
+}
 
+.btn-copiar {
+  justify-content: center;
+  align-self: center;
+  background: #FFFFFF;
+  color: #0a3871;
+  box-shadow: 0 3px #64676b;
+  
+}
+.btn-copiar:active{
+  transform: translateY(3px);
+}
