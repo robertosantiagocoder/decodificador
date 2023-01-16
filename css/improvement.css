@@ -35,7 +35,6 @@
   opacity: 0.8;
   display: flex;
   font-size: 14px;
-  font-weight: 400;
   line-height: 150%;
   gap: 8px;
 }
@@ -50,16 +49,18 @@
 /* ENTRADA */
 .container_texto textarea{
   
-  background-color: #e5e5e5;
+  background-color: #e3e5ec ;
   color: #0a3871;
-  font-weight: 400;
   font-size: 32px;
   line-height: 150%;
-  
+  border: none;
+  text-transform: lowercase;
 }
 
 .container_texto textarea::placeholder{
   color: #0a3871;
+  outline: none;
+  text-transform: none;
 }
 
 /* Button */
@@ -78,7 +79,7 @@
 }
   
 .container_texto button:last-of-type{
-  font-weight: 400;
+  
   line-height: 19px;
   box-shadow: 0 3px #0A3871;
   color: #0A3871;
@@ -122,7 +123,7 @@
 }
 
 .container_ilustrado .info:last-of-type {
-  font-weight: 400;
+  
   font-size: 16px;
   line-height: 150%;
   color: #495057

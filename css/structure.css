@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
 header{
@@ -12,10 +14,6 @@ header{
 body {
   background-color: #e3e5ec ;
 
-}
-
-body * {
-  font-family: 'Inter', sans-serif;
 }
 
 main {
@@ -34,6 +32,7 @@ button{
   height: 67px;
   cursor: pointer;
   border-radius: 24px;
+  
 }
 
 

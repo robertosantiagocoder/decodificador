@@ -3,6 +3,9 @@
 <head> <!--Informacoes passadas para o navegador-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <title>Decodificador Alura</title>
     <!--Aparencia-->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -18,7 +21,7 @@
     <header>
         <div class="caixa">
         <h1>
-            <img class="vector" src="figuras/logo.svg" alt="Alura Logotipo" placeholder="Digite seu texto">
+            <img class="vector" src="figuras/logo.svg" alt="Alura Logotipo" >
         </h1>
         <nav class="titulo">
         Decodificador Alura
@@ -28,9 +31,9 @@
 
     <main>
         <span class="alerta"></span>
-        <div class="container_texto">
+        <section class="container_texto">
             <div class="area">
-                <textarea name="area_texto" id="entrada" cols="30" rows="10"  placeholder="Digite seu texto" spellcheck="false"></textarea>
+                <textarea name="area_texto" id="entrada" cols="41" rows="4"  placeholder="Digite seu texto" spellcheck="false"></textarea>
                 <span class="info">
                     <img src="figuras/wow.svg" alt="Atenção">
                 Não utilize acentuação, nem caracteres especiais
@@ -47,7 +50,9 @@
                         Descriptografar
                     </button>
                 </div>  
-        </div>
+        </section>
+
+        <section>
         <div class="container_ilustrado">
             <img src="figuras/lupa.svg" alt="Homem de lupa">
             <span class="info">
@@ -56,8 +61,11 @@
             <span class="info">
                 Digite um texto que você deseja criptografar ou descriptografar.
             </span>
-        </div>
 
+            <textarea  class="mensagem" cols="20" rows="10"></textarea>
+            <button class="btn-copiar">Copiar</button>
+        </div>
+        </section>
         
     </main>
 
