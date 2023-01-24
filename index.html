@@ -14,7 +14,7 @@
     <!--Fontes-->
     <!--JavaScripts-->
     <script src="https://kit.fontawesome.com/cb02244758.js" crossorigin="anonymous"></script>
-    <script src="scripts/main_proj_alura.js" defer></script>
+    <script src="scripts/main.js" defer></script>
 
 </head>
 <body><!--Conteúdo para ser exibido-->
@@ -36,7 +36,7 @@
             </div>
             
                 <div class="buttons">
-                    <button type="button" id="but_cript" onclick="btnCript()">
+                    <button type="button" id="but_cript" onclick="btnCript()" >
                         <i class="fa-solid fa-turn-up"></i>
                         Criptografar
                     </button>
@@ -48,16 +48,14 @@
         </section>
 
         <section class="container_ilustrado">
-            <img src="./figuras/lupa.svg" alt="Homem de lupa">
-            <span class="info">
-                Nenhum texto encontrado
-            </span>
-            <span class="info">
-                Digite um texto que você deseja criptografar ou descriptografar.
-            </span>
-
-            <textarea  class="mensagem" id= "saida" cols="20" rows="10"></textarea>
-            <button class="btn-copiar"><i class="fa-regular fa-copy"></i> Copiar</button>        
+            
+            <img src="./figuras/lupa.svg" id="lupa" alt="Homem de lupa">
+          
+            <div class="container_saida" id="container_saida">
+            <textarea  class="mensagem" id= "saida" cols="20" rows="10" placeholder="Seu texto será encriptografado nesse campo" spellcheck="false"></textarea>
+            <button class="btn-copiar"><i class="fa-regular fa-copy"></i> Copiar</button>
+            </div>
+                  
         </section>
         
     </main>

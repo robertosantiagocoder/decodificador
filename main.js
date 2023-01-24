@@ -3,21 +3,6 @@
 const area_texto = document.querySelector(".area_texto");
 const mensagem = document.querySelector(".mensagem");
 
-// invocando os encriptadores
-
-function btnCript() {
-  const text_cript = encriptar(area_texto.value);
-  mensagem.value = text_cript;
-  area_texto.value = " ";
-
-}
-function btnDecript() {
-  const text_decript = decriptografar(mensagem.value);
-  area_texto.value = text_decript;
-  mensagem.value = " ";
-
-}
-
 
 // - Funcoes encriptar e desfazer  - //
 function encriptar(text) {
@@ -41,4 +26,23 @@ function decriptografar(text) {
 
   return decriptografar;
 }
+
+// invocando os encriptadores
+
+function btnCript() {
+  const text_cript = encriptar(area_texto.value);
+  mensagem.value = text_cript;
+  area_texto.value = " ";
+  change();
+
+}
+function btnDecript() {
+  const text_decript = decriptografar(mensagem.value);
+  area_texto.value = text_decript;
+  mensagem.value = " ";
+
+}
+
+
+
 
