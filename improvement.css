@@ -96,12 +96,12 @@
 }
 
 .container_ilustrado textarea{
+
   background-color: #FFFFFF;
   border: none;
   font-size: 24px;
   line-height: 150%;
   color: #495057;
-  
   
 }
 .container_ilustrado #mensagem::focus{
@@ -114,9 +114,10 @@
   text-transform: none;
   justify-content: center;
   text-align: center;
+  
 }
 
-.btn-copiar {
+/*#btn-copiar {
   justify-content: center;
   align-self: center;
   background: #FFFFFF;
@@ -124,6 +125,6 @@
   box-shadow: 0 3px #64676b;
   
 }
-.btn-copiar:active{
+#btn-copiar:active{
   transform: translateY(3px);
-}
+}*/
